@@ -9,11 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value="/day")
 public class BankController {
-@Autowired BankService bs;
-@PostMapping(value="/posting")
 
-public Bank posting(@RequestBody Bank b) {
-	return bs.posting(b);
-}
+
 
 }

@@ -5,10 +5,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class BankDao {
-@Autowired BankRepository br;
-	public Bank posting(Bank b) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 
 }

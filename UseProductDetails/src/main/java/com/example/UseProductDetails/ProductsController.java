@@ -38,3 +38,4 @@ ResponseEntity<Integer>response2=restTemplate.exchange(url2+hnt,HttpMethod.GET,n
 	}
 
 }
+ 
